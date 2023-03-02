@@ -1,14 +1,8 @@
-# font
-
-font pango:monospace 12 
-
-# windows
-
-default_border pixel
-
 # autostart
-
+exec_always --no-startup-id ~/.config/polybar/launch.sh
 exec --no-startup-id setxkbmap -model pc105 -layout us,ru -option grp:win_space_toggle
+
+# KEYBINDINGS
 
 # i3wm keybindings
 
@@ -21,8 +15,6 @@ bindsym $mod+Shift+e exec i3-msg exit
 # windows keybindings
 
 floating_modifier $mod
-
-tiling_drag modifier titlebar
 
 bindsym Shift+h split h
 bindsym Shift+v split v
@@ -102,3 +94,17 @@ bindsym $mod+Shift+0 move container to workspace number $ws10
 
 bindsym $mod+Return exec kitty
 bindsym $mod+d exec --no-startup-id rofi -show run
+
+# DECORATION
+
+# font
+
+font pango:monospace 12 
+
+# windows
+
+default_border pixel
+gaps outer 20
+gaps inner 10
+
+tiling_drag modifier titlebar
