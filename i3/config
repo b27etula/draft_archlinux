@@ -1,7 +1,10 @@
-# autostart
+# AUTOSTART
+
 exec_always --no-startup-id picom -b
 exec_always --no-startup-id ~/.config/polybar/launch.sh
-exec --no-startup-id feh --bg-scale ~/.config/wallpapers/nord_000.jpg
+
+exec --no-startup-id dunst
+exec --no-startup-id feh --bg-scale ~/pictures/wallpapers/nord_000.jpeg
 exec --no-startup-id setxkbmap -model pc105 -layout us,ru -option grp:win_space_toggle
 
 # KEYBINDINGS
