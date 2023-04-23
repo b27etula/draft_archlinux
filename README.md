@@ -9,6 +9,7 @@ wallpaper: feh
 **Fonts**  
 nerd fonts  
 https://github.com/ryanoasis/nerd-fonts  
+https://www.nerdfonts.com/  
 https://www.nerdfonts.com/cheat-sheet  
 
 **Input devicies**  
